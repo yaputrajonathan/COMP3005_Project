@@ -1,0 +1,9 @@
+drop table orders;
+drop table product_seller;
+drop table courier;
+drop table billing;
+drop table basket;
+drop table address;
+drop table users;
+drop table seller;
+drop table book;
