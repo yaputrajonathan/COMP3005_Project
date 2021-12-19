@@ -1,0 +1,60 @@
+insert into courier values ('10001','USP','USP@USP.ca','8007425877','5','14');
+insert into courier values ('10002','Jeff Bansos','Jeff@Bansos.ca','8882804331','10','1');
+insert into courier values ('10003','FedWhy','customer@FY.ca','8004633339','2','30');
+
+insert into genre values ('1001','Romance');
+insert into genre values ('1002','Fiction');
+insert into genre values ('1003','Sci-Fi');
+insert into genre values ('1004','Non-Fiction');
+insert into genre values ('1005','Fantasy');
+insert into genre values ('1006','Mystery');
+insert into genre values ('1007','Thriller');
+insert into genre values ('1008','Biography');
+insert into genre values ('1009','Comedy');
+insert into genre values ('1010','History');
+insert into genre values ('1011','Adventure');
+
+insert into billing values ('10001','4115600062246','101');
+insert into billing values ('10002','4264474716816','900');
+insert into billing values ('10003','5315051880658820','222');
+
+insert into address values ('10001', '7377 Marvon Street','Canada','Chambly','QC','J3L 3Y6');
+insert into address values ('10002', '39 Fawn Ave','Canada','Midland','ON','L4R 9B6');
+insert into address values ('10003', '475 Fairfield Drive','Canada','Petawawa','ON','K8H 6C8');
+
+insert into seller values ('10101','Chrissie','Lainey','chris@gmail.com','6048655227','1234');
+insert into seller values ('10102','Wynter','Jaynie','wynter@gmail.com','4509862901','1234');
+insert into seller values ('10103','Stew','Ramona','stew@gmail.com','5064780896','1234');
+insert into seller values ('10104','Ciera','Destinee','ciera@gmail.com','4037719643','1234');
+insert into seller values ('10105','Milly','Marylu','milly@gmail.com','7057539450','1234');
+insert into seller values ('10106','Symphony','Winston','winston@gmail.com','4165451743','1234');
+insert into seller values ('10107','Blaze','Jae','blaze@gmail.com','9059267676','1234');
+insert into seller values ('10108','Karen','Ciera','karen@gmail.com','7787729583','1234');
+insert into seller values ('10109','Jack','Glenn','jackg@gmail.com','5194657633','1234');
+insert into seller values ('10110','Geneva','Hayes','geneva@gmail.com','2898099191','1234');
+insert into seller values ('10111','Everette','Alesia','alesia@gmail.com','6137660042','1234');
+
+
+insert into book values ('11001','The Little Prince','Antoine de Saint-Exupéry','Reynal & Hitchcock','9780512708007','96','1943','12','10','10101','1005');
+insert into book values ('11002','Harry Potter and the Sorcerer''s Stone','J.K. Rowling','Bloomsbury','9789936805200','309','1997','15','13','10105','1002');
+insert into book values ('11003','Harry Potter and the Chamber of Secrets','J.K. Rowling','Bloomsbury','9786992704676','341','1998','15','16','10105','1002');
+insert into book values ('11004','Harry Potter and the Prisoner of Azkaban','J.K. Rowling','Bloomsbury','9795847564068','435','1999','15','10','10105','1002');
+insert into book values ('11005','Harry Potter and the Goblet of Fire','J.K. Rowling','Bloomsbury','9796754088364','734','2000','15','20','10105','1002');
+insert into book values ('11006','Harry Potter and the Order of the Phoenix','J.K. Rowling','Bloomsbury','9785402121737','870','2003','15','10','10105','1002');
+insert into book values ('11007','Harry Potter and the Half-Blood Prince','J.K. Rowling','Bloomsbury','9789905100879','652','2005','15','11','10105','1002');
+insert into book values ('11008','Harry Potter and the Deathly Hallows','J.K. Rowling','Bloomsbury','9787313399267','759','2007','15','12','10105','1002');
+insert into book values ('11009','Harry Potter and the Cursed Child: Parts One and Two','J.K. Rowling','Bloomsbury','9780512708007','343','2016','20','40','10105','1002');
+insert into book values ('11010','The Hobbit, or There and Back Again','J.R.R. Tolkien','George Allen & Unwin','9789370660199','366','1937','10','40','10111','1005');
+insert into book values ('11011','The Fellowship of the Ring','J.R.R. Tolkien','George Allen & Unwin','9780736316996','527','1954','11','53','10111','1005');
+insert into book values ('11012','The Two Towers','J.R.R. Tolkien','George Allen & Unwin','9781204440670','447','1954','11','26','10111','1005');
+insert into book values ('11013','The Return of the King','J.R.R. Tolkien','George Allen & Unwin','9783994963216','385','1955','11','13','10111','1005');
+insert into book values ('11014','A Tale of Two Cities','Charles Dickens','Chapman & Hall','9793516567792','489','1859','10','12','10110','1002');
+insert into book values ('11015','And Then There Were None','Agatha Christie','Collins Crime Club','9789673598274','264','1939','12','41','10104','1006');
+insert into book values ('11016','The Dream of the Red Chamber','Cao Xueqin','Cheng Weiyuan and Gao E','9794655986819','96','1791','10','13','10103','1001');
+insert into book values ('11017','The Da Vinci Code','Dan Brown','Doubleday','9785850823825','489','2003','13','53','10107','1006');
+insert into book values ('11018','Angels & Demons','Dan Brown','Doubleday','9798246869116','736','2000','13','33','10107','1006');
+
+
+insert into orders values ('10201','1','1','2021','Validating','10001');
+insert into orders values ('10202','2','3','2021','Shipping','10002');
+insert into orders values ('10203','4','5','2021','Validating','10003');
