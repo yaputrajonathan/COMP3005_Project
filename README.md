@@ -5,6 +5,10 @@
 *Name:* Jonathan.\
 *Student ID:* 101161272
 
+## ER and Schema
+
+Both the ER and the Schema diagrams are located in the diagram folder.
+
 ## IntelliJ
 
 I chose IntelliJ as my IDE. You can download this git as a zip. Open the folder named "project" in IntelliJ. You can open the module setting by right clicking on the folder name and click on "Open Module Settings", or just by simply pressing F4. \
@@ -19,12 +23,10 @@ View the images below for better visualization.\
 
 ## Connecting to PostGreSQL
 
+You need to connect to PostGreSQL before running the code.
+
 In the source code, there is a Java class called Connect where you can change the username and password to connect to your postgre. My default username and password is already there.\
 The default port is 5432.
-
-## ER and Schema
-
-Both the ER and the Schema diagrams are located in the diagram folder.
 
 ## DDL
 
@@ -32,3 +34,9 @@ The DDL folder contains all the sql statements needed for initialization.
 - Run DDL.sql first to initialize the tables.
 - Then DDLInsertion.sql to insert the dummy values.
 - deleteTables.sql is to drop all the tables. This sql statement is provided in case if needed.
+
+## Running the Application
+
+Once you have everything set up, you can start the application by running the Login.java file. 
+
+
