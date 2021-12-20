@@ -39,4 +39,8 @@ The DDL folder contains all the sql statements needed for initialization.
 
 Once you have everything set up, you can start the application by running the Login.java file. 
 
+## Contacts
 
+Email me if you have any problem setting up.
+
+**My Email:** jonathannotapplicabl@cmail.carleton.ca
