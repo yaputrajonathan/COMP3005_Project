@@ -39,6 +39,8 @@ The DDL folder contains all the sql statements needed for initialization.
 
 Once you have everything set up, you can start the application by running the Login.java file. 
 
+###### Sorry for the spaghetti code, I was in a rush!
+
 ## Contacts
 
 Email me if you have any problem setting up.
