@@ -7,7 +7,7 @@
 
 ## IntelliJ
 
-I chose IntelliJ as my IDE. Open the folder named "project" in IntelliJ. You can open the module setting by right clicking on the folder name and click on "Open Module Settings", or just by simply pressing F4. \
+I chose IntelliJ as my IDE. You can download this git as a zip. Open the folder named "project" in IntelliJ. You can open the module setting by right clicking on the folder name and click on "Open Module Settings", or just by simply pressing F4. \
 Set the Project SDK in the project settings. I used Java version 13, but you can choose any version.\
 To get JDBC working, navigate to the Modules bar and click on the "+" button on the right side and choose "JARs or directories...", and navigate to the .jar file I've attached. \
 View the images below for better visualization.\
